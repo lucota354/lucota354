@@ -1,81 +1,69 @@
 <div align="center">
 
-<img src="./assets/profile-banner.svg" alt="Lucas Fernandez — Founder at AmberMy Tech" width="100%" />
+<img src="./assets/profile-banner.svg" alt="Lucas Fernandez — Building useful digital systems" width="100%" />
 
-<br/>
+<br/><br/>
 
-[![Website](https://img.shields.io/badge/Website-ambermytech.com-F59E0B?style=for-the-badge&logo=googlechrome&logoColor=white)](https://ambermytech.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Lucas_Fernandez-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucas-fernandez-1660011b4/)
-[![Instagram](https://img.shields.io/badge/Instagram-@ambermytech-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/ambermytech/)
-[![eBay](https://img.shields.io/badge/eBay-AmberMy_Tech-E53238?style=for-the-badge&logo=ebay&logoColor=white)](https://www.ebay.com/str/ambermytech)
-[![Mercado Libre](https://img.shields.io/badge/Mercado_Libre-AmberMy_Tech-FFE600?style=for-the-badge&logo=mercadolibre&logoColor=2D3277)](https://www.mercadolibre.com.ar/pagina/0x2qxhtf)
+[![Website](https://img.shields.io/badge/ambermytech.com-111827?style=for-the-badge&logo=googlechrome&logoColor=F59E0B)](https://ambermytech.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-111827?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/lucas-fernandez-1660011b4/)
+[![Instagram](https://img.shields.io/badge/Instagram-111827?style=for-the-badge&logo=instagram&logoColor=E4405F)](https://www.instagram.com/ambermytech/)
 
 </div>
 
----
+## About
 
-## About me
+I'm **Lucas Fernandez**, founder of **AmberMy Tech**. I design and build software that connects engineering with real business operations — from AI-assisted sales workflows and internal tools to SaaS products, automation infrastructure and security-focused utilities.
 
-I'm **Lucas Fernandez**, founder of **AmberMy Tech**. I build end-to-end software products that connect engineering with real business operations: **AI automation, SaaS platforms, internal tools, CRM/POS systems, edge services and cybersecurity tooling**.
+I like working across the whole system: **product design, frontend, backend, data, APIs, automation, deployment and iteration**. The goal is simple: ship software that is useful outside the demo.
 
-I enjoy taking a problem from idea to production — designing the workflow, building the application, connecting APIs and infrastructure, automating operations, testing the system and turning it into something people can actually use.
-
-- Based in **Buenos Aires, Argentina**
-- Working in **English & Spanish**
-- Focused on **AI automation, SaaS, full-stack engineering and cybersecurity**
-- Interested in **open source, local-first software, privacy-aware systems and practical AI**
-- Building products and client solutions through **[AmberMy Tech](https://ambermytech.com)**
+**Buenos Aires, Argentina** · **English / Spanish** · Open to building, collaborating and solving hard product problems.
 
 ---
 
-## What I'm building
+## Selected work
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🔗 AmberQR
+### AmberQR
+**Privacy-aware QR infrastructure and analytics**
 
-**Privacy-first QR infrastructure and analytics.**
+Edge-first redirects, workspace analytics and server-side measurement designed to keep scans fast and data collection intentional.
 
-Fast QR redirects designed for edge execution, workspace-level analytics and privacy-aware visitor measurement.
-
-**Engineering:** TypeScript · Cloudflare Workers · KV · PostgreSQL · APIs
+TypeScript · Cloudflare Workers · KV · PostgreSQL · REST APIs
 
 </td>
 <td width="50%" valign="top">
 
-### 🧾 AmberPOS
+### Business software
+**Operational software built around real workflows**
 
-**Business software for sales, inventory and operations.**
+CRM/POS-style systems for inventory, acquisition costs, sales, profitability, reporting, cash flow and day-to-day operations.
 
-Desktop-first tooling for product management, barcode workflows, cash register operations, reporting and day-to-day business control.
-
-**Engineering:** TypeScript · Desktop Apps · SQLite · Local-first Architecture
+React · TypeScript · PostgreSQL · SQLite · Supabase / Neon
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 🤖 AI Sales Automation
+### AI sales automation
+**AI connected to actual business operations**
 
-**AI-assisted conversations that connect to real business workflows.**
+WhatsApp lead qualification, conversational context, routing, human handoff and CRM automation instead of isolated chatbot demos.
 
-WhatsApp lead qualification, conversation memory, routing, human handoff and CRM-style automation.
-
-**Engineering:** n8n · Chatwoot · Twilio · OpenAI · Docker · Webhooks
+n8n · Chatwoot · Twilio · OpenAI · Docker · Webhooks
 
 </td>
 <td width="50%" valign="top">
 
-### 🚘 Business CRMs
+### Desktop products
+**Local-first tools for businesses**
 
-**Operational systems built around the way a business actually works.**
+Desktop software designed for workflows where reliability, offline access, simple installation and data ownership matter.
 
-Inventory, acquisition costs, sales, profitability, cash flow, reporting and workflow automation for vertical businesses.
-
-**Engineering:** React · TypeScript · PostgreSQL · Supabase/Neon · Vercel
+TypeScript · Electron · SQLite · Local-first
 
 </td>
 </tr>
@@ -83,119 +71,108 @@ Inventory, acquisition costs, sales, profitability, cash flow, reporting and wor
 
 ---
 
-## Engineering focus
+## How I build
 
-```text
-Idea / Business Problem
-        │
-        ▼
-Product & System Design
-        │
-        ├── Frontend / UX
-        ├── Backend / APIs
-        ├── Database & Data Model
-        ├── AI / Automation
-        ├── Integrations & Webhooks
-        ├── Security & Validation
-        └── Infrastructure / Deployment
-        │
-        ▼
-Working Product
-        │
-        ▼
-Monitoring • Iteration • Automation • Scale
-```
+<pre>
+Business problem
+      ↓
+Product & system design
+      ↓
+Frontend ─── Backend ─── Data
+      │          │          │
+      └──── APIs / Integrations
+                  │
+          AI & Automation
+                  │
+        Security / Validation
+                  │
+        Deploy / Observe / Ship
+</pre>
 
-I care about the full system, not just one layer. A typical project may involve a web or desktop interface, an API, a database, third-party integrations, automation workflows, AI components, infrastructure and deployment.
+I prefer systems where each layer has a clear job. AI is most useful to me when it improves a workflow — not when it is added just to say a product uses AI.
 
 ---
 
-## Tech stack
+## Toolbox
 
-### Languages & application development
+**Languages & product development**
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=000)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Electron](https://img.shields.io/badge/Electron-191970?style=flat-square&logo=electron&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-111827?style=flat-square&logo=typescript&logoColor=3178C6)
+![JavaScript](https://img.shields.io/badge/JavaScript-111827?style=flat-square&logo=javascript&logoColor=F7DF1E)
+![Python](https://img.shields.io/badge/Python-111827?style=flat-square&logo=python&logoColor=3776AB)
+![React](https://img.shields.io/badge/React-111827?style=flat-square&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-111827?style=flat-square&logo=nodedotjs&logoColor=5FA04E)
+![Electron](https://img.shields.io/badge/Electron-111827?style=flat-square&logo=electron&logoColor=9FEAF9)
 
-### Data, backend & infrastructure
+**Backend, data & infrastructure**
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111827?style=flat-square&logo=postgresql&logoColor=4169E1)
+![SQLite](https://img.shields.io/badge/SQLite-111827?style=flat-square&logo=sqlite&logoColor=74C0FC)
+![Supabase](https://img.shields.io/badge/Supabase-111827?style=flat-square&logo=supabase&logoColor=3FCF8E)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-111827?style=flat-square&logo=cloudflare&logoColor=F38020)
+![Docker](https://img.shields.io/badge/Docker-111827?style=flat-square&logo=docker&logoColor=2496ED)
+![Vercel](https://img.shields.io/badge/Vercel-111827?style=flat-square&logo=vercel&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-111827?style=flat-square&logo=githubactions&logoColor=2088FF)
 
-### AI, automation & integrations
+**AI, automation & integrations**
 
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
-![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=flat-square&logo=twilio&logoColor=white)
-![WhatsApp](https://img.shields.io/badge/WhatsApp_Automation-25D366?style=flat-square&logo=whatsapp&logoColor=white)
-![REST APIs](https://img.shields.io/badge/REST_APIs-111827?style=flat-square&logo=fastapi&logoColor=white)
-![Webhooks](https://img.shields.io/badge/Webhooks-111827?style=flat-square&logo=webhook&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-111827?style=flat-square&logo=openai&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-111827?style=flat-square&logo=n8n&logoColor=EA4B71)
+![Twilio](https://img.shields.io/badge/Twilio-111827?style=flat-square&logo=twilio&logoColor=F22F46)
+![WhatsApp](https://img.shields.io/badge/WhatsApp-111827?style=flat-square&logo=whatsapp&logoColor=25D366)
+![REST APIs](https://img.shields.io/badge/REST_APIs-111827?style=flat-square)
+![Webhooks](https://img.shields.io/badge/Webhooks-111827?style=flat-square)
 
 ---
 
-## Open-source direction
+## Open source
 
-I'm turning reusable parts of my commercial and product work into clean, documented open-source projects.
+I'm gradually extracting reusable, non-client-specific pieces of my work into public projects. The standard I want for them is simple: **useful code, clear documentation, repeatable setup and tests where they matter**.
 
-| Project | Goal |
+| Project direction | What it demonstrates |
 |---|---|
-| **amberqr-edge** | Edge-first QR redirect engine with privacy-aware analytics |
-| **whatsapp-ai-sales-starter** | Reusable WhatsApp + AI + human-handoff automation architecture |
-| **quick-web-security-scanner** | Passive web security checks, headers, TLS and common configuration issues |
-| **n8n-business-automation-blueprints** | Production-minded workflow templates for leads, support, CRM and operations |
-| **amberpos-community** | Local-first POS and inventory foundation for small businesses |
-
-> The goal is not to publish random demo projects. I want the public work here to be useful, reproducible and documented well enough for other developers to build on.
+| **QR edge infrastructure** | Cloudflare Workers, redirects, analytics, privacy-aware measurement |
+| **AI sales starter** | WhatsApp, orchestration, memory, routing and human handoff |
+| **Web security scanner** | Passive security checks and actionable reporting |
+| **Automation blueprints** | Reusable business workflows with n8n and external APIs |
+| **Local-first POS foundation** | Desktop architecture, SQLite and offline-first business workflows |
 
 ---
 
-## What I care about
+## Engineering principles
 
-**Practical AI** — AI should improve a workflow, reduce friction or help someone make a better decision.
+**Useful over impressive.** A feature should solve a real problem before it earns complexity.
 
-**Automation with human control** — automated systems should know when to act and when to hand work back to a person.
+**Automate with an escape hatch.** Good automation knows when a human should take over.
 
-**Privacy & security** — collect only what is useful, keep secrets out of code, validate inputs and design with failure modes in mind.
+**Own the failure modes.** Validation, observability and security are product features.
 
-**Business-aware engineering** — good software needs to fit the operation around it: sales, support, inventory, payments, reporting and growth.
+**Build the whole loop.** Product, engineering, delivery and feedback all matter.
 
-**Shipping** — prototypes are useful, but reliable products are the goal.
+**Ship, learn, improve.** Production teaches things prototypes cannot.
 
 ---
 
-## GitHub
+## Current focus
+
+Right now I'm focused on building **reusable SaaS infrastructure, AI-assisted business workflows, local-first software and practical security tooling** — while turning the strongest reusable components into open-source projects.
+
+You can see the contribution graph and activity directly on my [GitHub profile](https://github.com/lucota354).
+
+---
+
+## Connect
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=lucota354&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" alt="Lucas Fernandez GitHub stats" />
+### Build something useful.
 
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=lucota354&hide_border=true&theme=transparent" alt="Lucas Fernandez GitHub streak" />
+[**AmberMy Tech**](https://ambermytech.com) ·
+[**LinkedIn**](https://www.linkedin.com/in/lucas-fernandez-1660011b4/) ·
+[**Instagram**](https://www.instagram.com/ambermytech/)
 
-</div>
+**Business channels:** [eBay](https://www.ebay.com/str/ambermytech) · [Mercado Libre](https://www.mercadolibre.com.ar/pagina/0x2qxhtf)
 
----
-
-## Let's connect
-
-I'm interested in conversations around **AI automation, SaaS products, business software, integrations and cybersecurity engineering**.
-
-If you're building something in that space — or want to see what we're working on at AmberMy Tech — start here:
-
-<div align="center">
-
-### **[ambermytech.com](https://ambermytech.com)**
-
-[LinkedIn](https://www.linkedin.com/in/lucas-fernandez-1660011b4/) · [Instagram](https://www.instagram.com/ambermytech/) · [eBay](https://www.ebay.com/str/ambermytech) · [Mercado Libre](https://www.mercadolibre.com.ar/pagina/0x2qxhtf)
-
-<sub>Building useful software from Buenos Aires 🇦🇷</sub>
+<sub>Buenos Aires, Argentina 🇦🇷</sub>
 
 </div>
